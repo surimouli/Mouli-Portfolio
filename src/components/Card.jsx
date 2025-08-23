@@ -1,8 +1,16 @@
-const Card = ({ text }) => {
+import { motion } from "motion/react";
+
+const Card = ({ style, text, containerRef }) => {
     return (
-        <div className = "absolute px-1 py-4 text-xl text-center rounded-full ring ring-grey-700 font-extralight bg-storm w-[12rem] cursor-grab">
+        <motion.div className = "absolute px-1 py-4 text-xl text-center rounded-full ring ring-grey-700 font-extralight bg-storm w-[12rem] cursor-grab"
+            style={style}
+            whileHover={{ scale: 1.05 }}
+            drag
+            dragConstraints={containerRef}
+            dragElastic={0.6}
+        >
             {text}
-        </div>
+        </motion.div>
     );
 };
 
