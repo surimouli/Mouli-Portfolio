@@ -1,15 +1,15 @@
 import { motion } from "motion/react";
 
-const Linkedin = () => {
-  const url = "https://www.linkedin.com/in/moulisuri/";
+const Github = () => {
+  const url = "https://github.com/surimouli";
 
-  const openLinkedin = () => {
+  const openGithub = () => {
     window.open(url, "_blank");
   };
 
   return (
     <motion.button
-      onClick={openLinkedin}
+      onClick={openGithub}
       whileHover={{ y: -5 }}
       className="relative flex items-center justify-center px-1 py-4 text-sm text-center rounded-full font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden"
     >
@@ -20,14 +20,14 @@ const Linkedin = () => {
         transition={{ duration: 0.1 }}
       >
         <img
-          src="assets/Linkedin.svg"
-          className="w-6 h-6 scale-125" // ✅ larger without affecting button height
-          alt="LinkedIn icon"
+          src="assets/Github.svg"
+          className="w-6 h-6 scale-125" 
+          alt="Github icon"
         />
       </motion.span>
-      <span className="w-full text-center">LinkedIn</span>
+      <span className="w-full text-center">Github</span>
     </motion.button>
   );
 };
 
-export default Linkedin;
+export default Github;

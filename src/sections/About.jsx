@@ -3,6 +3,8 @@ import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import { Lens } from "../components/Lens";
 import CopyEmailButton from "../components/CopyEmailButton";
+import Linkedin from "../components/Linkedin";
+import Github from "../components/Github";
 
 const About = () => {
     const grid2Container = useRef();
@@ -51,17 +53,20 @@ const About = () => {
                 </div>
                 {/* Grid 3 */}
                 <div className = "grid-black-color grid-3">
-                    
                 </div>
                 {/* Grid 4 */}
-                <div className = "grid-black-color grid-4">
-                    <div className = "z-10 w-[50%]">
-                        <p className = "headtext">Contact Me</p>
-                        <CopyEmailButton />
-                    </div>
+                <div className = "grid-black-color grid-4 relative">
                     <figure className = "absolute left-[30%] top-[10%]">
                         <Globe />
                     </figure>
+                    <div className = "z-10 w-[50%]">
+                        <p className = "headtext">Contact Me</p>
+                        <div className = "flex flex-col space-y-1.5">
+                            <CopyEmailButton />
+                            <Linkedin />
+                            <Github />
+                        </div>
+                    </div>
                 </div>
                 {/* Grid 5 */}
                 <div className = "grid-default-color grid-5">
@@ -70,22 +75,22 @@ const About = () => {
                             CODE IS ART
                         </p>
                         <Card
-                            style = {{ rotate: "75deg", top: "50%", left: "22%" }}
+                            style = {{ rotate: "75deg", top: "50%", left: "68%" }}
                             text = "C++"
                             containerRef = {grid2Container}
                         />
                         <Card 
-                            style = {{ rotate: "-25deg", top: "13%", left: "30%" }}
+                            style = {{ rotate: "-25deg", top: "13%", left: "45%" }}
                             text = "Python"
                             containerRef = {grid2Container}
                         />
                         <Card 
-                            style = {{ rotate: "55deg", top: "58%", left: "32%" }}
+                            style = {{ rotate: "55deg", top: "58%", left: "52%" }}
                             text = "HTML"
                             containerRef = {grid2Container}
                         />
                         <Card 
-                            style = {{ rotate: "75deg", top: "39%", left: "-5%" }}
+                            style = {{ rotate: "25deg", top: "15%", left: "1%" }}
                             text = "JavaScript"
                             containerRef = {grid2Container}
                         />
@@ -95,17 +100,17 @@ const About = () => {
                             containerRef = {grid2Container}
                         />
                         <Card 
-                            style = {{ rotate: "-45deg", top: "20%", left: "15%" }}
+                            style = {{ rotate: "-45deg", top: "20%", left: "25%" }}
                             text = "Next.js"
                             containerRef = {grid2Container}
                         />
                         <Card 
-                            style = {{ rotate: "25deg", top: "15%", left: "1%" }}
+                            style = {{ rotate: "20deg", top: "10%", left: "75%" }}
                             text = "React"
                             containerRef = {grid2Container}
                         />
                         <Card 
-                            style = {{ rotate: "0deg", top: "77%", left: "19%" }}
+                            style = {{ rotate: "0deg", top: "77%", left: "30%" }}
                             text = "TailwindCSS"
                             containerRef = {grid2Container}
                         />
@@ -117,4 +122,4 @@ const About = () => {
 
 }
 
-export default About
+export default About;
