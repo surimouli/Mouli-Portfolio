@@ -225,63 +225,53 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
-    icon: "/assets/socials/linkedIn.svg",
+    href: "https://www.linkedin.com/in/moulisuri/",
+    icon: "./assets/socials/linkedin.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    href: "https://github.com/surimouli",
+    icon: "./assets/socials/github.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Student IT Worker",
+    job: "University of Cincinnati",
+    date: "May 2024 - Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Resolved 20+ daily support tickets with a 95% first-contact resolution rate using ServiceNow and Bomgar.",
+      "Re-imaged and configured 100+ systems, installing Windows and macOS updates, drivers, and security patches, ensuring standardized deployments across the college.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Software Engineer Intern",
+    job: "Technology Tailor Made",
+    date: "January 2024 - April 2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Built two C++ server-side applications that automated recurring admin tasks, improving efficiency and reducing manual errors.",
+      "Maintained server infrastructure for 50+ clients, performing system monitoring, patch management, and troubleshooting, ensuring 99% uptime.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Engineering Intern",
+    job: "HCL Technologies",
+    date: "June 2023 - August 2023",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Analyzed cloud-storage workflows on Google Cloud Platform to improve organization and efficiency.",
+      "Developed Python scripts for data management and processing, automating repetitive tasks and improving team workflow.",
+      "Collaborated with a distributed team using GitHub, version control, and Agile methodology, delivering actionable insights for cloud infrastructure improvements.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Hardware Intern",
+    job: "Predulive Innovative Labs",
+    date: "May 2022 - September 2022 ",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Led hands-on summer workshops for 200+ students in grades 3-8, teaching drone construction, flight control, and safety to foster early STEM engagement.",
+      "Designed, built, and tested 15 custom agricultural drones for government crop-monitoring projects, boosting field-data collection efficiency by an estimated 30% and enabling real-time analysis for farmers.",
     ],
   },
 ];
