@@ -16,7 +16,7 @@ const About = () => {
                 <div className="hidden md:flex items-end grid-default-color grid-1">
                     <div className="flex flex-col items-center justify-center gap-4 size-full"> 
                     <Lens> 
-                        <img src="/Headshot.jpg" alt="Lens Demo" /> 
+                        <img src="./Headshot.jpg" alt="Lens Demo" /> 
                     </Lens> 
                     </div> 
                 </div>
@@ -25,7 +25,7 @@ const About = () => {
                     <div className="flex flex-col items-center justify-center gap-4 size-full">
                     <div className="relative z-10 backdrop-blur-md p-6 rounded-lg shadow-md max-w-[90%] sm:max-w-2xl text-center">
                         <Lens> 
-                        <img src="/Headshot.jpg" alt="Lens Demo" /> 
+                        <img src="./Headshot.jpg" alt="Lens Demo" /> 
                         </Lens>
                     </div>
                     </div> 
@@ -72,7 +72,7 @@ const About = () => {
                 <div className = "grid-default-color grid-5">
                     <div ref = {grid2Container} className = "flex items-center justify-center w-full h-full">
                         <p className = "flex items-end text-5xl text-gray-700">
-                            CODE IS ART
+                            SKILLS
                         </p>
                         <Card
                             style = {{ rotate: "75deg", top: "50%", left: "68%" }}

@@ -4,5 +4,6 @@ import tailwindcss from "@tailwindcss/vite"
 
 
 export default defineConfig({
+  base: '/Mouli-Portfolio/',
   plugins: [react(), tailwindcss()],
 });

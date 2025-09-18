@@ -20,7 +20,7 @@ const Github = () => {
         transition={{ duration: 0.1 }}
       >
         <img
-          src="assets/Github.svg"
+          src="./assets/socials/github.svg"
           className="w-6 h-6 scale-125" 
           alt="Github icon"
         />

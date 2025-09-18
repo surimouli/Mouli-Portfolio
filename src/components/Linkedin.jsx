@@ -20,7 +20,7 @@ const Linkedin = () => {
         transition={{ duration: 0.1 }}
       >
         <img
-          src="assets/Linkedin.svg"
+          src="./assets/socials/linkedin.svg"
           className="w-6 h-6 scale-125" // ✅ larger without affecting button height
           alt="LinkedIn icon"
         />

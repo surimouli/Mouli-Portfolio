@@ -13,7 +13,7 @@ import { useFrame } from "@react-three/fiber";
 
 export function Astronaut(props) {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/models/low_poly_cartoon_character.glb");
+  const { nodes, materials } = useGLTF("./models/low_poly_cartoon_character.glb");
 
   // Floating animation with spring
   const yPosition = useMotionValue(5);
